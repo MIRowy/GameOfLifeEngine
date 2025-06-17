@@ -15,6 +15,7 @@ add_executable(GameOfLifeEngine main.cpp
         engine/GameOfLifeManager.cpp
         myCustomImplementations/DefaultGameOfLifeCell.cpp
         myCustomImplementations/DefaultGameOfLifeCellFactoryMethod.cpp
+        myCustomImplementations/VonNeumannNeighbourhood.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
