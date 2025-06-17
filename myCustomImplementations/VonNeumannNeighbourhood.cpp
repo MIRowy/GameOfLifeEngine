@@ -1,4 +1,4 @@
-﻿#include "./engine/neighbourhood/BaseNeighbourhood.h"
+﻿#include "../engine/neighbourhood/BaseNeighbourhood.h"
 
 class VonNeumannNeighbourhood final : public BaseNeighbourhood {
 public:
